@@ -602,6 +602,11 @@ function AI()
     turn = 0
     sqr3T = 1
   }
+  else if (sqr3T == 0 && sqr5 == " O " && sqr6 == " X " && sqr8 == " X ") {
+    document.tic.sqr3.value = " O "
+    turn = 0
+    sqr3t = 1
+  }
   else if(document.tic.sqr5.value == "     " && turn == 1)
   {
     document.tic.sqr5.value = " O "
